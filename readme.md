@@ -11,6 +11,8 @@ Blank lines or lines beginning with a `#` character will be ignored.
 # Usage
 Usage requires the `-t` option along with your targets file. (Relative paths for target files are supported.)
 
-Unless otherwise specified, backups will be generated at the same location as the provided targets file.
+Unless otherwise specified with the `-d` option, backups will be generated at the same location as the provided targets file.
+
+The `-m` option may be provided with the maximum number of backups to retain.
 
 Invoke `./backup.sh -h` or `./backup.sh help` for a full list of supported options.
